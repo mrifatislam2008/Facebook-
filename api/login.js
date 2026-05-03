@@ -1,3 +1,6 @@
+console.log("BODY:", body);
+console.log("ENV:", process.env.ADMIN_PASSWORD);
+
 import jwt from "jsonwebtoken";
 
 export default async function handler(req, res) {
